@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>division</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container right-panel-active">
+        <!-- Sign Up -->
+        <div class="container__form container--signup">
+            <form action="#" class="form" id="form1">
+                <h1 class="form__title">SignUp</h1>
+                <input type="text" placeholder="Name" class="input" />
+                <input type="email" placeholder="email" class="input" />
+                <input type="password" placeholder="password" class="input" />
+                <button type="submit" class="btn">SignUp</button>
+            </form>
+        </div>
+
+        <!-- Sign In -->
+        <div class="container__form container--signin">
+            <form action="#" class="form" id="form2">
+                <h1 class="form__title">SignIn</h1>
+                <input type="email" placeholder="email" class="input" />
+                <input type="password" placeholder="password" class="input" />
+                <a href="#" class="link">forget password</a>
+                <button type="submit" class="btn">SignIn</button>
+            </form>
+        </div>
+
+        <!-- Overlay -->
+        <div class="container__overlay">
+            <div class="overlay">
+                <div class="overlay__panel overlay--left">
+                    <button class="btn" id="signIn">SignIn</button>
+                </div>
+                <div class="overlay__panel overlay--right">
+                    <button class="btn" id="signUp">SignUp</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./content.js"></script>
+</body>
+
+</html>
